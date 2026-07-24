@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - "config/*.keymap"
+      - "config/info.json"
       - "config/*.dtsi"
       - "keymap_drawer.config.yaml"
 
@@ -20,6 +21,8 @@ jobs:
       keymap_patterns: "config/*.keymap"
       config_path: "keymap_drawer.config.yaml"
       output_folder: "keymap-drawer"
-      parse_args: ""
-      draw_args: ""
+
+      draw_args: "keymap:'--qmk-info-json config/info.json'"
+
       commit_message: "Update keymap diagram"
+      fail_on_error: true
