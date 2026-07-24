@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keymap}
 layers:
   '0':
-  - TAB
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - '5'
+  - DELETE
+  - TAB
   - A
   - S
   - D
@@ -31,22 +31,22 @@ layers:
   - C
   - V
   - B
-  - SPACE
-  - SPACE
+  - LANG2
+  - LANG1
   - N
   - M
-  - ','
-  - .
+  - '&mkp MB1'
+  - '&mkp MB2'
   - UP ARROW
   - {t: '?', h: RSHFT}
-  - '2'
-  - ESCAPE
-  - LEFT CONTROL
-  - LALT
+  - {t: Sft+CAPS, h: LCTRL}
   - LEFT COMMAND
-  - '2'
+  - LALT
+  - Sft+INTERNATIONAL 3
+  - ','
+  - {t: ., h: LSHIFT}
   - SPACE
-  - SPACE
+  - BACKSPACE
   - '3'
   - LEFT ARROW
   - DOWN ARROW
@@ -141,7 +141,7 @@ layers:
   - '['
   - ']'
   - /
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ layers:
   - F9
   - F10
   - F12
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
