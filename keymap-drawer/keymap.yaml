@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: LSHIFT}
+  - F
   - G
   - H
-  - {t: J, h: RSHIFT}
+  - J
   - K
   - L
   - {t: '-', h: RCTRL}
