@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: RCTRL}
   - ENTER
   - LSHFT
   - Z
@@ -46,7 +46,7 @@ layers:
   - ','
   - {t: ., h: LSHIFT}
   - {t: SPACE, h: '4'}
-  - BACKSPACE
+  - {t: BACKSPACE, h: '2'}
   - {t: RALT, h: '3'}
   - LEFT ARROW
   - DOWN ARROW
@@ -104,43 +104,43 @@ layers:
   - {t: ▽, type: trans}
   '2':
   - ESCAPE
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+8
+  - Sft+9
+  - Sft+7
+  - F8
   - DELETE
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '~'
-  - '{'
-  - '}'
   - '['
   - ']'
+  - \
+  - Sft+,
+  - Sft+.
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Gui+S
+  - Alt+PRINTSCREEN
+  - PRINTSCREEN
   - /
+  - .
+  - INTERNATIONAL 3
+  - Sft+INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,7 +148,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,7 +159,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+F5
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -167,9 +167,9 @@ layers:
   - {t: BT, h: '4'}
   - BT CLR ALL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - VOLUME DOWN
+  - VOL UP
   - Ctl+BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -214,8 +214,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+'
+  - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
@@ -226,8 +226,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+;
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
@@ -240,8 +240,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
+  - Sft+_
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
