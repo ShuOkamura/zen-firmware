@@ -71,8 +71,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,7 +177,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+L
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -358,8 +358,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [28, 29]
-  k: BT CLR
-  l: ['2']
 - p: [34, 35]
+  k: '4'
+- p: [19, 20]
   k: '4'
