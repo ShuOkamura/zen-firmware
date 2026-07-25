@@ -566,6 +566,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="672" y="140" class="combo tap layer-activator">4</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-2">
@@ -784,6 +789,11 @@ path.combo {
 <tspan x="280" dy="-0.6em">BT</tspan><tspan x="280" dy="1.2em">CLR</tspan>
 </text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="672" y="140" class="combo tap layer-activator">4</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-3">
@@ -1018,6 +1028,11 @@ path.combo {
 <tspan x="0" dy="-1.2em">Gui+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
 </text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="672" y="140" class="combo tap layer-activator">4</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-4">
@@ -1229,6 +1244,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="672" y="140" class="combo tap layer-activator">4</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1400)" class="layer-5">
@@ -1434,6 +1454,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="672" y="140" class="combo tap layer-activator">4</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1680)" class="layer-6">
@@ -1639,6 +1664,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="658" y="127" width="28" height="26" class="combo"/>
+<a href="#x_x">
+<text x="672" y="140" class="combo tap layer-activator">4</text>
+</a></g>
 </g>
 </g>
 </svg>
