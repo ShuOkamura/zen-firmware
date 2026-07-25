@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: LSHIFT}
   - G
   - H
-  - J
+  - {t: J, h: RSHIFT}
   - K
   - L
   - {t: '-', h: RCTRL}
@@ -43,7 +43,7 @@ layers:
   - LEFT COMMAND
   - LALT
   - Sft+INTERNATIONAL 1
-  - ','
+  - {t: ',', h: LCTRL}
   - {t: ., h: LSHIFT}
   - {t: SPACE, h: '4'}
   - {t: BACKSPACE, h: '2'}
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+L
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
