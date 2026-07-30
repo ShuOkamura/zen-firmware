@@ -11,12 +11,12 @@
             bindings = <&mo 4>;
             key-positions = <34 35>;
             slow-release;
-            timeout-ms = <200>;
         };
 
         scroll_combo2 {
             bindings = <&mo 4>;
             key-positions = <19 20>;
+            slow-release;
         };
     };
 
